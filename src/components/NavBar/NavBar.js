@@ -1,21 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import './NavBar.css'
-import logo from '../Assets/logo.jpg'
 import cart_icon from '../Assets/cart_icon.png'
 
 function NavBar() {
     return (
         <div className="navbar">
             <div className="nav-logo">
-                <img src={logo} alt="" />
                 <p>Auravani</p>
             </div>
-            <ul className="mav-menu">
-                <li>Shop</li>
+
+            <ul className="nav-menu">
+                <li>Shop <hr /></li>
                 <li>Men</li>
                 <li>Women</li>
                 <li>Kids</li>
             </ul>
+
+            <div className="nav-login-cart">
+                <button>login</button>
+                <img src={cart_icon} alt="" />
+                <div className="nav-cart-count">0</div>
+            </div>
         </div>
     )
 }
