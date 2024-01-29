@@ -1,3 +1,5 @@
+/*remove this whole file when the backend server works*/
+
 let sample_popular_data = [
         {
           "id": 1,
