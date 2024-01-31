@@ -7,6 +7,9 @@ import Product from './pages/Product';
 import Cart from './pages/Card';
 import LoginSignup from './pages/LoginSiqnup';
 import Footer from './components/Footer/Footer';
+import Mens from './pages/Mens';
+import Womens from './pages/Womens';
+import Kids from './pages/Kids';
 
 function App() {
   return (
@@ -15,9 +18,9 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Shop />} />
-          <Route path="/mens" element={<ShopCategory category="mens" />} />
-          <Route path="/womens" element={<ShopCategory category="womens" />} />
-          <Route path="/kids" element={<ShopCategory category="kids" />} />
+          <Route path="/mens" element={<Mens category="mens" />} />
+          <Route path="/womens" element={<Womens category="womens" />} />
+          <Route path="/kids" element={<Kids category="kids" />} />
           <Route path="/product" element={<Product />}>
             <Route path=":productId" element={<Product />} />
           </Route>
