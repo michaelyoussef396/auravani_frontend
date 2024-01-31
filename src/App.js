@@ -2,7 +2,6 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Shop from './pages/Shop';
-import ShopCategory from './pages/ShopCategory';
 import Product from './pages/Product';
 import Cart from './pages/Card';
 import LoginSignup from './pages/LoginSiqnup';
