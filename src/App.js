@@ -2,7 +2,6 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Shop from './pages/Shop';
-import ShopCategory from './pages/ShopCategory';
 import Product from './pages/Product';
 import Cart from './pages/Card';
 import LoginSignup from './pages/LoginSiqnup';
@@ -18,9 +17,9 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Shop />} />
-          <Route path="/mens" element={<Mens category="mens" />} />
-          <Route path="/womens" element={<Womens category="womens" />} />
-          <Route path="/kids" element={<Kids category="kids" />} />
+          <Route path="/mens" element={<Mens />} />
+          <Route path="/womens" element={<Womens />} />
+          <Route path="/kids" element={<Kids />} />
           <Route path="/product" element={<Product />}>
             <Route path=":productId" element={<Product />} />
           </Route>
