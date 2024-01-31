@@ -11,7 +11,7 @@ const Kids = () => {
         fetch('http://localhost:3000/auravani_collection')
             .then(r => r.json())
             .then(data => {
-                const filteredData = data.filter(item => item.category === 'kids');
+                const filteredData = data.filter(item => item.category === 'kid');
                 setKidsClothes(filteredData);
             });
     }, []);
