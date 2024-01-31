@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import mens_banner from '../components/Assets/banner_mens.png'
 import dropdonw_icon from '../components/Assets/dropdown_icon.png'
 import Item from "../components/Items/Items";
-import './css/mens.css'  // Use lowercase for CSS folder and filename
+import './css/mens.css'
 
 const Mens = () => {
     const [mensClothes, setMensClothes] = useState([]);
