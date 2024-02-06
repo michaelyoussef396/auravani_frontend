@@ -11,7 +11,7 @@ import Kids from './pages/Kids';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/auravani_frontend'>
         <NavBar />
         <Routes>
           <Route path="/" element={<Shop />} />
