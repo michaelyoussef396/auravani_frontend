@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/auravani_frontend/static/css/main.1ff7b40f.css",
-    "main.js": "/auravani_frontend/static/js/main.949b3001.js",
+    "main.js": "/auravani_frontend/static/js/main.b2277f9f.js",
     "static/js/787.eb897279.chunk.js": "/auravani_frontend/static/js/787.eb897279.chunk.js",
     "static/media/hero_icon.png": "/auravani_frontend/static/media/hero_icon.7a7713fa890ab446810e.png",
     "static/media/exclucive_image.png": "/auravani_frontend/static/media/exclucive_image.bfd9630a599428558802.png",
@@ -11,11 +11,11 @@
     "static/media/hand_icon.png": "/auravani_frontend/static/media/hand_icon.9c7487cecb600f30901b.png",
     "index.html": "/auravani_frontend/index.html",
     "main.1ff7b40f.css.map": "/auravani_frontend/static/css/main.1ff7b40f.css.map",
-    "main.949b3001.js.map": "/auravani_frontend/static/js/main.949b3001.js.map",
+    "main.b2277f9f.js.map": "/auravani_frontend/static/js/main.b2277f9f.js.map",
     "787.eb897279.chunk.js.map": "/auravani_frontend/static/js/787.eb897279.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ff7b40f.css",
-    "static/js/main.949b3001.js"
+    "static/js/main.b2277f9f.js"
   ]
 }
