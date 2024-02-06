@@ -8,7 +8,7 @@ const Womens = () => {
     const [womensClothes, setWomensClothes] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/auravani_collection')
+        fetch('https://auravani-backend.onrender.com/auravani_collection')
             .then(r => r.json())
             .then(data => {
                 const filteredData = data.filter(item => item.category === 'women');
